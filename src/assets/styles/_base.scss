@@ -1,0 +1,174 @@
+html {
+  font-size: 0.875rem;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: $font-weight-light;
+}
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3 {
+  //font-weight: $font-weight-bold;
+  color: white; // need to look again
+}
+h4,
+h5,
+h6 {
+  font-weight: $font-weight-light;
+}
+.h1,
+h1 {
+  font-size: $h1-font-size;
+}
+
+.h2,
+h2 {
+  font-size: $h2-font-size;
+}
+.h3,
+h3 {
+  font-size: 60px;
+}
+.h4,
+h4 {
+  font-size: $h4-font-size;
+}
+.h5,
+h5 {
+  font-size: $h5-font-size;
+}
+.h6,
+h6 {
+  font-size: $h6-font-size;
+}
+.bg-black {
+  background-color: $black !important;
+  color: $white;
+}
+.bg-gray {
+  background-color: $gray-600;
+  color: $white;
+}
+.bg-light-gray {
+  background-color: $gray-500;
+  color: $white;
+}
+.bg-light-blue {
+  background-color: $light-blue;
+  color: $white;
+}
+.bg-blue {
+  background-color: $blue;
+  color: $white;
+}
+.bg-indigo {
+  background-color: $indigo;
+  color: $white;
+}
+.bg-navy {
+  background-color: $navy;
+  color: $white;
+}
+.bg-purple {
+  background-color: $purple;
+  color: $white;
+}
+.bg-pink {
+  background-color: $pink;
+  color: $white;
+}
+.bg-red {
+  background-color: $red;
+  color: $white;
+}
+.bg-pink {
+  background-color: $pink;
+  color: $white;
+}
+.bg-orange {
+  background-color: $orange;
+  color: $white;
+}
+.bg-yellow {
+  background-color: $yellow !important;
+  color: $black;
+}
+.bg-green {
+  background-color: $green;
+  color: $white;
+}
+.bg-teal {
+  background-color: $teal;
+  color: $white;
+}
+.bg-cyan {
+  background-color: $cyan;
+  color: $white;
+}
+.bg-primary {
+  background-color: $primary;
+  color: $white;
+}
+.text-blue {
+  color: $blue;
+}
+.text-indigo {
+  color: $indigo;
+}
+.text-purple {
+  color: $purple;
+}
+.text-pink {
+  color: $pink;
+}
+.text-red {
+  color: $red;
+}
+.text-orange {
+  color: $orange;
+}
+.text-yellow {
+  color: $yellow;
+}
+.text-green {
+  color: $green;
+}
+.text-teal {
+  color: $teal;
+}
+.text-cyan {
+  color: $cyan;
+}
+.text-white {
+  color: $white;
+}
+
+#wrapper {
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+}
+
+.icon {
+  height: 2vh;
+  width: 1vw;
+}
+.page-wrapper {
+  background-color: #fff;
+}
+.btn {
+  background-color: #34bad8 !important;
+  color: #fff !important;
+  border-color: #fff !important;
+  margin: 20px;
+  width: 410px;
+}
+.top-row {
+  padding-left: 10%;
+}

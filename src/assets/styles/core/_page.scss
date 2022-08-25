@@ -1,0 +1,76 @@
+/*==============================================================
+ For all pages
+ ============================================================== */
+
+#main-wrapper {
+  width: 100vw;
+  overflow: hidden;
+}
+
+.page-wrapper {
+  background: $body-bg;
+  background: #fff;
+  position: relative;
+  // min-height: calc(100vh - 3.125rem);
+  min-height: 100vh;
+}
+
+.fixed-layout {
+  .topbar {
+    position: fixed;
+  }
+  .topbar {
+    width: 100%;
+  }
+  .page-wrapper {
+    margin-top: 3.125rem;
+  }
+}
+
+.container-fluid {
+  // margin-left: 23rem;
+  margin-top: 3.125rem;
+  padding-top: 1rem;
+  width: auto;
+}
+
+.page-titles {
+  border-color: white;
+  background: $body-bg;
+  padding: 14px 10px;
+  box-shadow: $shadow;
+  margin: 0 -25px 25px -25px;
+  h4 {
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+  a {
+    color: $body-color;
+    cursor: pointer;
+    &:hover {
+      text-decoration: none;
+      color: $blue;
+    }
+  }
+  .breadcrumb {
+    padding: 0px;
+    margin: 0px;
+    background: transparent;
+    font-size: 12px;
+    li {
+      a {
+        color: $body-color;
+      }
+    }
+    .breadcrumb-item + .breadcrumb-item::before {
+      content: "\e649";
+      font-family: themify;
+      color: $gray-400;
+      font-size: 11px;
+    }
+    .breadcrumb-item.active {
+      color: $themecolor;
+      font-weight: 500;
+    }
+  }
+}

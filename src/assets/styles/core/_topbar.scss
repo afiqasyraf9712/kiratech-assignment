@@ -1,0 +1,175 @@
+// header part
+
+/*******************
+ Topbar
+*******************/
+
+.topbar {
+  background-color: $white;
+  // position: fixed;
+  z-index: 50;
+  .navbar-collapse {
+    height: 100%;
+    padding: 0px;
+  }
+  .top-navbar {
+    height: 3.125rem;
+    min-height: 50px;
+    width: 100vw;
+    padding: 0px;
+    .dropdown-toggle::after {
+      display: none;
+    }
+    .navbar-header {
+      background: rgba(0, 0, 0, 0.05);
+      line-height: 65px;
+      padding-left: 10px;
+      min-width: 70px;
+      .navbar-brand {
+        display: block;
+        margin-right: 0px;
+        align-items: center;
+
+        b {
+          line-height: 50px;
+          display: inline-block;
+        }
+        .logo {
+          display: block;
+
+          img {
+            // width: auto;
+            // height: auto;
+            width: 15%;
+          }
+        }
+        .mini-logo {
+          display: none;
+
+          img {
+            margin: auto;
+            width: 15%;
+          }
+        }
+        .navbar-logo {
+          display: block;
+          height: 2.25rem; // todo: adjust height to obtain optimum UI result
+          width: auto !important;
+          margin-right: 2rem;
+        }
+        .navbar-logo-text {
+          margin-left: 5px;
+          font-size: 52px;
+          line-height: 1.6;
+          text-transform: uppercase;
+          font-family: "PT Mono", monospace;
+        }
+      }
+    }
+    .powered-by {
+      text-align: right;
+      font-family: "PT Mono", monospace;
+
+      img {
+        max-height: 2.6rem;
+        width: auto;
+        height: auto;
+        margin-right: 1rem;
+      }
+    }
+    .nav-item {
+      .nav-icon {
+        margin-right: 8px;
+      }
+    }
+    .navbar-nav {
+      height: 100%;
+      align-items: center;
+      color: $white;
+
+      .nav-link {
+        font-size: 0.875rem;
+        display: flex;
+
+        height: 100%;
+        color: $gray-300;
+
+        &:hover {
+          color: $gray-500;
+        }
+      }
+    }
+    .navbar-nav > .nav-item > .nav-link {
+      padding-left: 15px;
+      padding-right: 15px;
+      font-size: 0.875rem;
+      line-height: 50px;
+
+      &.alert-link {
+        font-size: 0.875rem;
+        line-height: initial;
+        padding: 0.875rem 1rem;
+        color: $white;
+
+        &:hover {
+          color: $gray-500;
+        }
+      }
+    }
+    .navbar-nav > .nav-item > span {
+      line-height: 45px;
+      font-size: 24px;
+      font-weight: 500;
+      color: $white;
+      padding: 0 10px;
+    }
+
+    .header-text {
+      color: white;
+      cursor: pointer;
+      font-family: "PT Mono", monospace;
+    }
+
+    .login-text {
+      color: orange;
+      cursor: pointer;
+      font-family: "PT Mono", monospace;
+    }
+
+    .searchbar {
+      width: 40%;
+      min-width: 10%;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .topbar {
+    .top-navbar {
+      .navbar-header {
+        .navbar-brand {
+          .logo {
+            img {
+              max-height: 2.6rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 767px) {
+  .topbar {
+    .top-navbar {
+      .navbar-header {
+        .navbar-brand {
+          .logo {
+            img {
+              max-height: 2.6rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}

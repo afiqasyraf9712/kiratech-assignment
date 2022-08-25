@@ -1,0 +1,194 @@
+// Theme Colors
+$themecolor: #ff5722;
+$themecolor-light: #f5774c;
+$themecolor-alt: #26c6da;
+$themecolor-bg-color: #121212;
+$shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.5);
+$lft: left;
+$rgt: right;
+
+// Color system
+$white: #fff !default;
+$whitesmoke: #edf1f5 !default;
+$white-100: #eee !default;
+$white-200: #f8f8f8 !default;
+
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #9e9e9e !default;
+$gray-600: #727272 !default;
+$gray-700: #4f5467 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+$black: #000 !default;
+
+$dark-blue: #041a35 !default;
+$light-blue: #03a9f4 !default;
+$blue: #2196f3 !default;
+$indigo: #3f51b5 !default;
+$purple: #9c27b0 !default;
+$pink: #e46a76 !default;
+$red: #ed1b24 !default;
+$orange: #ff9800 !default;
+$yellow: #ffeb3b !default;
+$green: #4caf50 !default;
+$teal: #009688 !default;
+$cyan: #00bcd4 !default;
+$navy: #1a237e !default;
+$brown: #784f0c;
+$primary: $themecolor !default;
+
+$text-primary: #212121;
+
+$text-muted: $gray-600 !default;
+
+$utw-color: #ff7119;
+
+$cleaner-active: #417505;
+$cleaner-away: #f5a623;
+$cleaner-idle: #4a4a4a;
+
+$room-shortage: #d0021b;
+$room-oversupply: #f5a623;
+$room-normal: #417505;
+$room-not-available: #4a4a4a;
+
+$enabled: #417505;
+$disabled: #4a4a4a;
+
+$colors: (
+  blue: $blue,
+  indigo: $indigo,
+  purple: $purple,
+  pink: $pink,
+  red: $red,
+  orange: $orange,
+  yellow: $yellow,
+  green: $green,
+  teal: $teal,
+  cyan: $cyan,
+  white: $white,
+  gray: $gray-600,
+  gray-dark: $gray-800,
+);
+
+$theme-colors: (
+  primary: $orange,
+  secondary: $gray-100,
+  success: $green,
+  info: $blue,
+  warning: $yellow,
+  danger: $red,
+  light: $gray-200,
+  cyan: $cyan,
+  gray: $gray-600,
+  dark: $gray-800,
+  purple: $purple,
+);
+
+// Options
+//
+// Quickly modify global styling by enabling or disabling optional features.
+$enable-caret: true !default;
+$enable-rounded: true !default;
+$enable-shadows: false !default;
+$enable-gradients: false !default;
+$enable-transitions: true !default;
+$enable-hover-media-query: false !default;
+$enable-grid-classes: true !default;
+$enable-print-styles: true !default;
+
+// Body
+//
+// Settings for the `<body>` element.
+$body-bg: $gray-900;
+$body-color: $gray-900 !default;
+$grid-gutter-width: 20px !default;
+
+$content-bg-dark: #3d6f92;
+
+// Typography
+//
+// Font, line-height, and color for body text, headings, and more.
+// Typography
+$font-size-base: 0.875rem;
+$line-height-base: 1.6;
+$font-family-sans-serif: sans-serif;
+
+$font-weight-light: 300 !default;
+$font-weight-normal: 400 !default;
+$font-weight-medium: 500 !default;
+$font-weight-bold: 700 !default;
+
+$h1-font-size: 2.25rem;
+$h2-font-size: 1.875rem;
+$h3-font-size: 1.5rem;
+$h4-font-size: 1.125rem;
+$h5-font-size: 1rem;
+$h6-font-size: 0.875rem;
+
+$headings-margin-bottom: (1rem / 2) !default;
+$headings-font-family: sans-serif !default;
+$headings-font-weight: 300 !default;
+$headings-color: inherit !default;
+
+// Breadcrumbs
+$breadcrumb-bg: $white;
+$breadcrumb-margin-bottom: 1.5rem;
+
+// Cards
+$card-border-width: 0px !default;
+$card-border-color: transparent !default;
+$card-border-radius: 0px !default;
+$card-background: #fff;
+
+// Dropdowns
+$dropdown-item-padding-y: 0.65rem !default;
+$dropdown-border-color: $gray-200;
+$dropdown-divider-bg: $gray-100;
+
+// Buttons
+$btn-secondary-border: $gray-300;
+
+// Progress bars
+$progress-bg: $gray-100;
+
+// Tables
+$table-bg-accent: $gray-100;
+$table-bg-hover: $gray-100;
+$table-hover-bg: $gray-100 !default;
+$table-cell-padding: 1rem !default;
+$table-bg-level: -10 !default;
+$table-bg-level2: 1 !default;
+$table-bg-level3: -5 !default;
+// Components
+$component-active-color: $white !default;
+$component-active-bg: $themecolor !default;
+$badge-pill-padding-x: 0.2em !default;
+$badge-pill-padding-y: 1em !default;
+
+// Forms
+$input-group-addon-bg: $gray-100;
+$input-border-color: $gray-200;
+$input-group-addon-border-color: $gray-200;
+$input-btn-focus-color: rgba(0, 0, 0, 0.25) !default;
+$input-focus-border-color: rgba(0, 0, 0, 0.1) !default;
+$custom-control-indicator-active-bg: rgba(0, 0, 0, 35%) !default;
+$input-btn-focus-box-shadow: transparent !default;
+$custom-select-focus-box-shadow: transparent !default;
+$custom-select-indicator: str-replace(url(""), "%23") !default;
+//
+// Define common padding and border radius sizes and more.
+$border-width: 1px !default;
+$border-color: $gray-200 !default;
+$border-radius: 0.25rem !default;
+$border-radius-lg: 0.3rem !default;
+$border-radius-sm: 0.2rem !default;
+
+// Progress bars
+$progress-height: auto !default;
+
+//Tabs
+$nav-tabs-link-active-bg: $white !default;

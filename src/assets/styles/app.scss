@@ -1,0 +1,22 @@
+// Bootstrap
+@import "~bootstrap/scss/bootstrap";
+
+// Base
+// @import "responsive";
+@import "variables";
+@import "base";
+
+// Colors
+// @import "colors/index.scss";
+// Core
+@import "core/index.scss";
+
+#app {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+#default {
+  background: $body-bg;
+}
