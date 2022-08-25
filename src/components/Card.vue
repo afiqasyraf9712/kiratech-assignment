@@ -44,7 +44,7 @@
     aria-hidden="true"
   >
     <div class="modal-dialog modal-dialog-centered">
-      <div class="modal-content px-5 py-3">
+      <div class="modal-content px-5 pt-3 pb-5">
         <div class="modal-header border-0">
           <h5
             class="modal-title"
@@ -152,5 +152,9 @@ export default {
 
 .modal-content {
   padding: 1rem 1rem 1rem 1rem;
+}
+
+.modal {
+  --bs-modal-width: 45% !important;
 }
 </style>
